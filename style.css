@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .logo {
     color: white;
     font-size: 3rem;
@@ -6,16 +12,11 @@
     display: inline;
 }
 
-Logo :hover{
+.logo:hover{
     cursor: pointer;
     color: red;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 nav{
     background-color: pink;
@@ -42,18 +43,18 @@ Li:hover{
 }
 
 body{
-    background-image: url(images/life.jpg);
+    background-image: url(photo/life.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgb(22,22,67);
 }
-.container{
+#container{
     
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
-    display content: center;
+    justify-content: center;
     align-items: center;
 }
 
