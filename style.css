@@ -1,0 +1,72 @@
+.logo {
+    color: white;
+    font-size: 3rem;
+    padding-left: 6em;
+    line-height: 90px;
+    display: inline;
+}
+
+Logo :hover{
+    cursor: pointer;
+    color: red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: pink;
+    height: 10vh;
+}
+
+nav ul{
+    float: right;
+    margin-right: 10em;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.5rem;
+    line-height: 55px;
+    color: white;
+}
+
+Li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+body{
+    background-image: url(images/life.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(22,22,67);
+}
+.container{
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    display content: center;
+    align-items: center;
+}
+
+.container-child{
+    background-color: blue;
+    height: 80vh;
+    width: 35vw;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.profile-image{
+    position: relative;
+    top: 20px;
+    border-radius: 50%;
+}
